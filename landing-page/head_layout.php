@@ -9,7 +9,7 @@
 </head>
     <header>
         <a href="#" class="logo">
-            <img src="../img/logo.png" alt="">
+            <img class="logo" src="../img/logo.png" alt="">
         </a>
         <!--Menu Icons-->
         <i class='bx bx-menu' id="menu-icon"></i>
