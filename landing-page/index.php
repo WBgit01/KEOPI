@@ -120,7 +120,7 @@ include_once 'head_layout.php';
                     <i class='bx bxs-star-half' ></i>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui asperiores sunt animi aspernatur dolores molestias eveniet ipsum non deserunt architecto, explicabo dicta ab ducimus earum blanditiis nemo. Facere, id corrupti.</p>
-                <h2>Albert Laurente</h2>
+                <h2>Bogart Laurente</h2>
                 <img src="../img/bogart.jpg" alt="">
             </div>
 
@@ -133,7 +133,7 @@ include_once 'head_layout.php';
                     <i class='bx bxs-star-half' ></i>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui asperiores sunt animi aspernatur dolores molestias eveniet ipsum non deserunt architecto, explicabo dicta ab ducimus earum blanditiis nemo. Facere, id corrupti.</p>
-                <h2>Albert Laurente</h2>
+                <h2>Master Bogart Laurente</h2>
                 <img src="../img/bogart.jpg" alt="">
             </div>
         </div>
