@@ -146,8 +146,8 @@ include_once 'head_layout.php';
         <h2>Keopi Hub</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut rem illum similique, a alias hic aspernatur, laboriosam, dolore facilis soluta suscipit sequi obcaecati beatae neque ad quis eaque iste.</p>
         <div class="socials">
-            <a href="#"><i class='bx bxl-facebook' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.facebook.com/sarangjinkeopihub?mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/sarangjinkeopihub?igsh=NXB3YXhmdGtyN3A1"><i class='bx bxl-instagram' ></i></a>
             <a href="#"><i class='bx bxl-tiktok' ></i></a>
         </div>
     </div>
@@ -157,7 +157,6 @@ include_once 'head_layout.php';
         <li><a href="#">Help & Support</a></li>
         <li><a href="#">Return of Policy</a></li>
         <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Product</a></li>
     </div>
     <div class="footer-box">
         <h3>View Guides</h3>
@@ -177,8 +176,9 @@ include_once 'head_layout.php';
 </section>
 <!-- Copyright -->
 <div class="copyright">
-    <p>&#169; Bogart All Right Reserrve</p>
+    <p>&#169; Bogart All Right Reserved</p>
 </div>
+
 
 
 
