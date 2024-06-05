@@ -157,7 +157,6 @@ include_once 'head_layout.php';
         <li><a href="#">Help & Support</a></li>
         <li><a href="#">Return of Policy</a></li>
         <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Product</a></li>
     </div>
     <div class="footer-box">
         <h3>View Guides</h3>
@@ -177,7 +176,7 @@ include_once 'head_layout.php';
 </section>
 <!-- Copyright -->
 <div class="copyright">
-    <p>&#169; Bogart All Right Reserrve</p>
+    <p>&#169; Bogart All Right Reserved</p>
 </div>
 
 
