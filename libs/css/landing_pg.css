@@ -48,6 +48,7 @@ header {
     background: rgb(37, 37, 37);
 }
 
+
 /* -------------------------------------
     FONT FAMILY STYLES
 ------------------------------------- */
@@ -192,7 +193,6 @@ header {
 }
 
 
-
 /* -------------------------------------
     ABOUT CONTENT STYLES
 ------------------------------------- */
@@ -283,7 +283,7 @@ header {
 }
 
 .product-container .box .content span {
-    padding: 0.2rem;
+    padding: 0.3rem;
     color: var(--bg-color);
     background-color: var(--main-color);
     border-radius: 3px;
@@ -291,9 +291,9 @@ header {
 }
 
 .product-container .box .content a {
-    padding: 0.2rem;
+    padding: 0.3rem;
     color: var(--text-color);
-    border: 2px solid var(--main-color);
+    border: 3px solid var(--main-color);
     border-radius: 3px;
     font-weight: 800;
     text-transform: uppercase;
@@ -305,7 +305,6 @@ header {
     color: var(--bg-color);
     transition: 0.2s all linear;
 }
-
 
 
 /* -------------------------------------
@@ -433,4 +432,126 @@ header {
     padding: 20px;
     text-align: center;
     background: var(--second-color);
+}
+
+
+/* -------------------------------------
+    RESPONSIVE STYLES
+------------------------------------- */
+@media (max-width: 1080px) {
+    section {
+        padding: 40px 80px;
+    }
+
+    .home {
+        gap: 1rem;
+    }
+
+    .product-container, .customer-container, .footer {
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    }
+
+    .footer-box {
+        max-width: 210px;
+    }
+}
+
+
+@media (max-width: 780px) {
+    section {
+        padding: 30px 60px;
+    }
+
+    .home {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, auto));
+    }
+
+    .home-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-text h2, .heading h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 560px) {
+    section {
+        padding: 20px 40px;
+    }
+
+    .home-text h1 {
+        font-size: 2rem;
+    }
+
+    .about-text h2, .heading h2 {
+        font-size: 1.2rem;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .header-icon {
+        font-size: 18px;
+    }
+
+    .search-box input {
+        padding: 15px;
+    }
+
+    .product-container .box {
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    section {
+        padding: 15px 20px;
+    }
+
+    .home-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-text h2, .heading h2 {
+        font-size: 1rem;
+    }
+
+    .navbar a {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .header-icon {
+        font-size: 16px;
+    }
+
+    .search-box input {
+        padding: 12px;
+        font-size: 0.9rem;
+    }
+
+    .footer-box {
+        max-width: 160px;
+    }
+
+    .footer-box h2 {
+        font-size: 1rem;
+    }
+
+    .footer-box p {
+        font-size: 0.8rem;
+    }
+
+    .footer-box li a {
+        font-size: 0.8rem;
+    }
 }
