@@ -1,31 +1,20 @@
 <?php
-include_once 'head_layout.php';
-$page_title = "landing-page";
+    $page_title = "loading-page";
 ?>
+<link rel="stylesheet" href="../libs/css/loading-style.css">
 
-
-<!-- Home -->
-<section class="home" id="home">
-    <div class="home-text">
-        <h1>Start your day <br> with coffee</h1>
-        <p class="home-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod odit sit sapiente quibusdam repellat eligendi ratione. Facilis, quae, aspernatur iste consequatur debitis, exercitationem quod molestiae magni autem nemo rerum.</p>
-        <a href="#" class="btn">Shop Now</a>
-    </div>
-    <div class="home-img">
-        <img class="img-home" src="../img/kape.png" alt="">
-    </div>
-</section>
+<div class="cup">
+    <div class="handle"></div>
+    <h1 class="title">KEOPI APP</h1>
+</div>
 
 <?php
-// ABOUT
-    include_once 'about.php';
-
-// FEATURED PRODUCTS
-    include_once 'featured_prod.php';
-
-// CUSTOMER FEEDBACKS 
-    include_once 'customer.php';
-
-
-include_once 'foot_layout.php';
+    include_once 'foot_layout.php';
 ?>
+
+<script>
+    // Delay before redirecting to the landing page
+    setTimeout(function() {
+        window.location.href = 'landing_pg.php';
+    }, 5000); // 5000 milliseconds = 5 seconds
+</script>

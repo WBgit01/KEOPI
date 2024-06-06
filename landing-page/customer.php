@@ -1,5 +1,5 @@
 <!----------- CUSTOMERS FEEDBACK ----------->
-<section class="customers" id="customers">
+<section class="customers" id="feedback">
     <div class="heading">
         <h2>Our Customer's</h2>
         <!-- Container -->
