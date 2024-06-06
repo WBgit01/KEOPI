@@ -1,4 +1,7 @@
-<!----------- CUSTOMER FEEDBACKS ----------->
+<?php
+    if ($page_title == 'landing-page') {
+?>
+    <!----------- CUSTOMER FEEDBACKS ----------->
 <section class="footer">
     <div class="footer-box">
         <h2>Keopi Hub</h2>
@@ -34,8 +37,21 @@
 </section>
 
 <div class="copyright">
-    <p>&#169; Bogart All Right Reserved</p>
+    <p>&#169; Keopi All Right Reserved</p>
 </div>
 
+<?php
+    } else 
+?>
+
+
 <!----------- SCRIPTS ----------->
-<script src="../libs/js/landing_pg.js"></script>
+<?php
+    if ($page_title =="loading-page") {
+        // echo "<script src='../libs/js/loading-script.js'></script>";
+    }else{
+        echo "<script src='../libs/js/landing-script.js'></script>";
+    }
+?>
+
+

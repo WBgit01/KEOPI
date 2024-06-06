@@ -1,7 +1,9 @@
 <?php
 include_once 'head_layout.php';
-$page_title = "index";
+$page_title = "landing-page";
 ?>
+
+
 <!-- Home -->
 <section class="home" id="home">
     <div class="home-text">

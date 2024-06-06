@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: url(../../img/bg.png);
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.cup {
+    height: 140px;
+    width: 180px;
+    border: 6px solid transparent;
+    position: absolute;
+    border-radius: 0px 0px 70px 70px;
+    background: url(../../img/coffee.png);
+    box-shadow: 0px 0px 0px 6px white;
+    background-repeat: repeat-x;
+    background-position: 0px 140px;
+    animation: fill 2.5s infinite;
+}
+
+.handle {
+    height: 70px;
+    width: 40px;
+    background-color: transparent;
+    border: 6px solid white;
+    position: relative;
+    left: 186px;
+    top: 2px;
+    border-radius: 0px 25px 80px 0px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@keyframes fill {
+    0% {
+        background-position: 0px 140px;
+    }
+    20% {
+        background-position: -450px 100px;
+    }
+    40% {
+        background-position: -900px 50px;
+    }
+    80% {
+        background-position: -1350px -40px;
+    }
+    100% {
+        background-position: 0px 140px;
+    }
+}
+
+
+/* -------------------------------------
+    RESPONSIVE STYLES
+------------------------------------- */
+@media (max-width: 1080px) {
+    .cup {
+        height: 110px;
+        width: 145px;
+    }
+    .handle {
+        left: 154px;
+        height: 28px;
+    	width: 22px;
+    	top: -6px;
+    }
+    .title {
+    	margin-top: 140px;
+    	font-size: 30px;
+
+	}
+}
+
+@media (max-width: 780px) {
+    .cup {
+        height: 75px;
+        width: 110px;
+    }
+    .handle {
+        left: 117px;
+        height: 26px;
+    	width: 20px;
+    	top: -6px;
+    }
+    .title {
+    	margin-top: 90px;
+    	font-size: 26px;
+
+	}
+}
+
+@media (max-width: 560px) {
+    .cup {
+        height: 58px;
+        width: 80px;
+    }
+    .handle {
+        left: 86px;
+        height: 22px;
+    	width: 20px;
+    	top: -6px;
+    }
+    .title {
+    	margin-top: 75px;
+    	font-size: 24px;
+
+	}
+}
+
+@media (max-width: 400px) {
+    .cup {
+        height: 50px;
+        width: 70px;
+    }
+    .handle {
+        left: 76px;
+        height: 22px;
+    	width: 20px;
+    	top: -6.2px;
+    }
+    .title {
+    	margin-top: 70px;
+    	font-size: 22px;
+
+	}
+}
