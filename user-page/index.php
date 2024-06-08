@@ -1,19 +1,20 @@
 <?php
-    include_once 'head_layout.php';
-    $page_title = 'index';
+    $page_title = "loading-page";
+?>
+<link rel="stylesheet" href="../libs/css/loading-style.css">
+
+<div class="cup">
+    <div class="handle"></div>
+    <h1 class="title">KEOPI APP</h1>
+</div>
+
+<?php
+    include_once 'foot_layout.php';
 ?>
 
-<!-- BANNER -->
-<section class="cover" id="banner">
-    <div class="cover--overlay">
-        <h1>Sarang-Jin Keopi Hub </h1>
-        <span class="section-heading">Inspired by our Lolo and Lola's love for their grandchildren, this is happiness in a cup of coffee.</span>
-    </div>
-</section>
-
-<?php 
-    include_once 'category_item.php';
-    include_once 'menu_list.php';
-    include_once 'foot_layout.php'; 
-    
-?>
+<script>
+    // Delay before redirecting to the landing page
+    setTimeout(function() {
+        window.location.href = 'main_page.php';
+    }, 5000);
+</script>

@@ -16,5 +16,5 @@
     // Delay before redirecting to the landing page
     setTimeout(function() {
         window.location.href = 'landing_pg.php';
-    }, 5000); // 5000 milliseconds = 5 seconds
+    }, 5000);
 </script>
