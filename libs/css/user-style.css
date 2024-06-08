@@ -126,30 +126,6 @@ body{
 }
 
 
-
-.navbar {
-    position: fixed;
-    top: 0;
-    left: -300px; /* Adjust this value based on your design */
-    width: 300px; /* Adjust this value based on your design */
-    height: 100%;
-    background-color: #fff; /* Adjust as needed */
-    transition: left 0.3s ease; /* Transition property for smooth sliding */
-    z-index: 1000; /* Ensure navbar appears on top of other content */
-}
-
-/* Class to indicate navbar is open */
-.navbar.open {
-    left: 0;
-}
-
-/* Style for menu bar icon */
-.menu--bar {
-    cursor: pointer;
-    padding: 10px;
-}
-
-
 /* -------------------------------------
     BANNER STYLES
 ------------------------------------- */
