@@ -7,7 +7,10 @@ $page_title = "landing-page";
 <section class="home" id="home">
     <div class="home-text">
         <h1>Start your day <br> with coffee</h1>
-        <p class="home-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quod odit sit sapiente quibusdam repellat eligendi ratione. Facilis, quae, aspernatur iste consequatur debitis, exercitationem quod molestiae magni autem nemo rerum.</p>
+        <p class="home-info">Welcome to Sarang-Jin Keopi Hub! Here, we're all about bringing people together over a good cup of coffee.
+             Our cozy café is the perfect spot to unwind, catch up with friends, or simply enjoy some alone time with your favorite brew.
+              With a warm atmosphere and friendly service, we strive to make every visit feel like coming home. So, whether you're a 
+              coffee aficionado or just looking for a relaxing place to hang out, we invite you to join us at Sarang-Jin Keopi Hub.</p>
         <a href="#" class="btn">Shop Now</a>
     </div>
     <div class="home-img">
@@ -24,7 +27,6 @@ $page_title = "landing-page";
 
 // CUSTOMER FEEDBACKS 
     include_once 'customer.php';
-
 
 include_once 'foot_layout.php';
 ?>
