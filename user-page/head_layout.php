@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +16,7 @@
                     <div class="profile-img">
                         <i class="fa-solid fa-circle"></i>
                     </div>
-                    <span>Victoria <i class="fa-solid fa-angle-down"></i></span>
+                    <span>Username</span> <i class="fa-solid fa-angle-down"></i></span>
                 </div>
                 <ul class="profile-dropdown-list">
                     <li class="profile-dropdown-list-item">
@@ -38,7 +36,7 @@
                     </li>
                     <hr />
                     <li class="profile-dropdown-list-item">
-                        <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a>
+                        <a href="../config/logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i> Log out</a>
                     </li>
                 </ul>
             </div>

@@ -1,5 +1,9 @@
 <?php
     include_once 'head_layout.php';
+    include_once '../config/database.php';
+    include_once '../config/core.php';
+    include_once '../object/user.php';
+
     $page_title = 'main-page';
 ?>
 

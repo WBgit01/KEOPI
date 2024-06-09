@@ -34,7 +34,7 @@
             </ul>
             
             <ul class="logout-mode">
-                <li><a href="#">
+                <li><a href="../config/logout.php">
                     <i class="fa-solid fa-arrow-right-to-bracket"></i>
                     <span class="link-name">Logout</span>
                 </a></li>
