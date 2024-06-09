@@ -11,7 +11,7 @@ $page_title = "landing-page";
              Our cozy café is the perfect spot to unwind, catch up with friends, or simply enjoy some alone time with your favorite brew.
               With a warm atmosphere and friendly service, we strive to make every visit feel like coming home. So, whether you're a 
               coffee aficionado or just looking for a relaxing place to hang out, we invite you to join us at Sarang-Jin Keopi Hub.</p>
-        <a href="#" class="btn">Shop Now</a>
+        <a href="signup_pg.php" class="btn">Shop Now</a>
     </div>
     <div class="home-img">
         <img class="img-home" src="../img/kape.png" alt="">
