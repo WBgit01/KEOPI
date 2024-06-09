@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2024 at 03:31 PM
+-- Generation Time: Jun 09, 2024 at 04:41 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -41,11 +41,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email_address`, `password`, `access_level`, `created`) VALUES
-(1, '', '', '$2y$10$wzNvpXlh2fVbaEi3kZZIKelObnovQv0AxX4t8aRYwH0Z/kwQvSuxu', 'User', '2024-06-09 07:00:09'),
-(2, 'regret', 'zero@example.com', '$2y$10$4qMq/Cb2tx8X0yv/U3QmeuaP9o4.hfEcjunl5wIq8E9UZxf24dxFK', 'User', '2024-06-09 07:01:50'),
-(3, 'Marc', 'marc@example.com', '$2y$10$BePlxnjmfb8a6kHDlFTCRuAfRd6BeE8wIvZ.y4ZMght5t273ZZIZS', 'User', '2024-06-09 07:10:31'),
-(4, 'Regret_Zero', 'regretzero03@gmail.com', '$2y$10$zLGZ5/QPsp2fN24OeaMfse4Y8MGKTcNow3zyWx9P8bMn3jIPA7nXa', 'User', '2024-06-09 07:19:21'),
-(5, 'Jomari', 'jomari@example.com', '$2y$10$oZhb5N7ne4OEjzXOX47WHOiwrttGViAGHg6MabxOzwGgydeLc/BRK', 'User', '2024-06-09 07:26:05');
+(1, 'admin', 'admin.keopi@mail.com', '$2y$10$hkqFymuHC2EmungjjmMKdu/jGEUOtNbNKFSmHmeHYXUQoWRv4JX1a', 'Admin', '2024-06-09 08:26:06'),
+(6, 'Mark Zuckerberg', 'zuck@mail.com', '$2y$10$3wWUQoZvKJ2c8G8qq0.GzugQN4sr138WS0tvBpM0PXOCI44sajnc.', 'User', '2024-06-09 07:50:16');
 
 --
 -- Indexes for dumped tables
@@ -65,7 +62,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
