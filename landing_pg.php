@@ -14,7 +14,7 @@ $page_title = "landing-page";
         <a href="signup_pg.php" class="btn">Shop Now</a>
     </div>
     <div class="home-img">
-        <img class="img-home" src="../img/kape.png" alt="">
+        <img class="img-home" src="img/kape.png" alt="">
     </div>
 </section>
 

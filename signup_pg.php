@@ -1,8 +1,8 @@
 <?php
 include_once 'head_layout.php';
-include_once '../config/database.php';
-include_once '../config/core.php';
-include_once '../object/user.php';
+include_once 'config/database.php';
+include_once 'config/core.php';
+include_once 'object/user.php';
 
 $database = new Database();
 $db = $database->getConnection();
@@ -37,10 +37,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['email_address'] = $user->email_address;
             $_SESSION['access_level'] = $user->access_level;
             if ($_SESSION['access_level'] == "User"){
-                header("Location: ../user-page/index.php?action=login_success");
+                header("Location: user-page/index.php?action=login_success");
                 exit();
             }else if ($_SESSION['access_level'] == "Admin"){
-                header("Location: ../admin-page/index.php?action=login_success");
+                header("Location: admin-page/index.php?action=login_success");
                 exit();
             } else {
                 echo "<script>alert('Log in failed. Please try again later.');</script>";
@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <link rel="stylesheet" href="../libs/css/signup-style.css">
+    <link rel="stylesheet" href="libs/css/signup-style.css">
          
 </head>
 <body>
@@ -142,6 +142,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 
-     <script src="../libs/js/signup-script.js"></script> 
+     <script src="libs/js/signup-script.js"></script> 
 </body>
 </html>

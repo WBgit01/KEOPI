@@ -50,7 +50,7 @@
     if ($page_title =="loading-page") {
         // echo "<script src='../libs/js/loading-script.js'></script>";
     }else{
-        echo "<script src='../libs/js/landing-script.js'></script>";
+        echo "<script src='libs/js/landing-script.js'></script>";
     }
 ?>
 

@@ -1,7 +1,7 @@
 <?php
     $page_title = "loading-page";
 ?>
-<link rel="stylesheet" href="../libs/css/loading-style.css">
+<link rel="stylesheet" href="libs/css/loading-style.css">
 
 <div class="cup">
     <div class="handle"></div>

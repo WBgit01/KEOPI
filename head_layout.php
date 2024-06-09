@@ -1,13 +1,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../libs/css/landing-style.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/landing-style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
     <a href="index.php" class="logo">
-        <img src="../img/logo.png" alt="">
+        <img src="img/logo.png" alt="">
         <span>KEOPI</span>
     </a>
 
@@ -20,7 +20,6 @@
 
     <div class="main">
         <a href="signup_pg.php" class="user"><i class='bx bxs-user'></i>Sign In</a>
-        <!-- <a href="#" class="user">Register</a> -->
         <div class="bx bx-menu" id="menu-icon"></div>
     </div>
 </header>

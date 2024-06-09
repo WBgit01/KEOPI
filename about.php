@@ -1,7 +1,7 @@
 <!----------- ABOUT ----------->
 <section class="about" id="about">
     <div classs="about-img">
-        <img class="img-about" src="../img/about-img.jpg" alt="">
+        <img class="img-about" src="img/about-img.jpg" alt="">
     </div>
     <div class="about-text">
         <h2>Our History</h2>
