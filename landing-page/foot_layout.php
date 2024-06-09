@@ -5,7 +5,8 @@
 <section class="footer">
     <div class="footer-box">
         <h2>Keopi Hub</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut rem illum similique, a alias hic aspernatur, laboriosam, dolore facilis soluta suscipit sequi obcaecati beatae neque ad quis eaque iste.</p>
+        <p>If you have any concerns or recommendations, don't hesitate to reach out to us on our social media platforms.
+             We value your opinions since they help us better serve you and make sure that your experience at Sarang-Jin Keopi Hub is nothing short of amazing.</p>
         <div class="socials">
             <a href="https://www.facebook.com/sarangjinkeopihub?mibextid=ZbWKwL"><i class='bx bxl-facebook' ></i></a>
             <a href="https://www.instagram.com/sarangjinkeopihub?igsh=NXB3YXhmdGtyN3A1"><i class='bx bxl-instagram' ></i></a>
@@ -23,7 +24,6 @@
         <h3>View Guides</h3>
         <li><a href="#">Features</a></li>
         <li><a href="#">Careers</a></li>
-        <li><a href="#">Blog Posts</a></li>
         <li><a href="#">Our Branches</a></li>
     </div>
     <div class="footer-box">
